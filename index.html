@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Minecraft Playsound 計算ツールバージョン(ver1.12)</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Minecraft Playsound 計算ツール(ver1.12)</h1>
+
+    <label for="playsound">基準値 (playsound base):</label>
+    <input type="number" id="playsound" step="any" placeholder="例: 1.0" />
+
+    <label for="pitchbend">Pitch Bend (整数):</label>
+    <input type="number" id="pitchbend" step="1" placeholder="例: 683" />
+
+    <button id="calculate">計算</button>
+    <button id="clearHistory" class="clear-btn">履歴クリア</button>
+
+    <div id="result" class="result">ここに結果が表示されます</div>
+
+    <h2>履歴（最大10件）</h2>
+    <ul id="history" class="history-list"></ul>
+  </div>
+  <script src="script.js"></script>
+  
+<footer class="footer">
+  <p><a href="https://x.com/sssshimody/status/1442443902091505666" target="_blank">しもでぃ様のplaysoundの数値リスト</a></p>
+  <p><a href="https://www.youtube.com/@io_Minecraft_music" target="_blank">Youtube</a></p>
+  <p><a href="https://www.youtube.com/watch?v=gJOoDMFZcy4" target="_blank">このサイトの利用方法</a></p>
+  <p><a href="https://x.com/ionoteblock" target="_blank">私のTwitter 何かあれば気軽に聞いてください</a></p>
+  <p><a href="https://ioldtype.github.io/Minecraft-noteblock-playsound/" target="_blank">バージョン1.13~以降はこちらから</a></p>
+</footer>
